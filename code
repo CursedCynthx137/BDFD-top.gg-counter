@@ -1,0 +1,6 @@
+$nomention
+$onlyForIDs[(youruserid);]
+$httpAddHeader[Authorization;(bot-topgg-token)]
+$httpPost[https://top.gg/api/bots/$botID/stats;{
+ "server_count": "$numberSeparator[$serverCount]"}]
+☑️
